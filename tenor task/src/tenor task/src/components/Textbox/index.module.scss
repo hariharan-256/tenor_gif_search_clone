@@ -1,0 +1,16 @@
+.textbox {
+	border: 1px solid #e8e8e8;
+    background-color: var(--color-white);
+	padding: 1.2vh 1vw;
+	width: 100%;
+	border-radius: 3px;
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16), 0 0 1px 0 rgba(0, 0, 0, 0.8);
+	font-family: var(--inter-smb), helvetica, arial, sans-serif;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.5;
+	position: relative;
+	&::placeholder {
+		color: var(--color-b);
+	}
+}
